@@ -1,11 +1,48 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+blockquote,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+hr,
+figure,
+p,
+pre {
+  margin: 0;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  --background-rgb: 248, 247, 241, 1;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -17,4 +54,5 @@
 }
 
 body {
+  background: var(--background-rgb);
 }
