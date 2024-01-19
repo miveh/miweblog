@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-function HeaderLink({ children, href }) {
+export function HeaderLink({ children, href }) {
   return (
     <Link
       href={href ? href : "/"}
@@ -11,5 +11,3 @@ function HeaderLink({ children, href }) {
     </Link>
   );
 }
-
-export default HeaderLink;

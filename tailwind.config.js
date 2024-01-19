@@ -17,6 +17,8 @@ module.exports = {
         primary: "rgba(40, 111, 108, 1)",
         hover: "#286f6b61",
         hoverBg: "#124b48",
+        secondary: "#0D2F3F",
+        yellowText: "#EDB33C",
       },
     },
   },

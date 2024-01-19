@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderLink from "./HeaderLink";
+import { HeaderLink } from "./HeaderLink";
 
 /**
  * Renders the header component.
